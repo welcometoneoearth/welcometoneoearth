@@ -17,8 +17,8 @@ form {
 }
 
 video {
-  width: 720px;
-  height: 720px;
+  width: 100%;
+  padding-top: 100%;
   margin: 0px;
   padding: 0px;
   border: none;
