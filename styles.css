@@ -1,7 +1,10 @@
 form {
   color: blue;
   width: 100%;
-  animation: myanimation 1s infinite;
+  animation: myanimation 0.1s infinite;
+  margin: 0px;
+  padding: 0px;
+  border: none;
 }
 
 video {
