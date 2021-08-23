@@ -16,12 +16,24 @@ form {
   border: none;
 }
 
-video {
-  width: 100%;
-  padding-top: 100%;
-  margin: 0px;
-  padding: 0px;
-  border: none;
+@media (max-aspect-ratio: 9:16) {
+  video {
+    width: 100%;
+    padding-top: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+  }
+}
+
+@media (min-aspect-ratio: 9:16) {
+  video {
+    width: 33.33333%;
+    padding-top: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+  }
 }
 
 
