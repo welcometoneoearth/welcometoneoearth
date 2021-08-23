@@ -11,9 +11,8 @@ input[type=text] {
   border: 2px solid red;
   border-radius: 4px;
   width: 30%;
-  height: 2vw;
+  height: 1vw;
   margin: auto;
-  padding-bottom: 50px;
 }
 
 .myButton {
