@@ -10,9 +10,9 @@ html,body {
 input[type=text] {
   border: 2px solid red;
   border-radius: 4px;
-  padding-bottom: 20px;
   width: 30%;
   height: 1vw;
+  margin: auto;
 }
 
 .myButton {
