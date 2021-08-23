@@ -1,5 +1,6 @@
 form {
-  color: blue;
+  color: white;
+  align-content: center;
   width: 100%;
   animation: myanimation 0.1s infinite;
   margin: 0px;
