@@ -10,13 +10,15 @@ form {
   color: white;
   align-content: center;
   width: 100%;
-  animation: myanimation 0.1s infinite;
+  animation: myanimation 0.5s infinite;
   margin: 0px;
   padding: 0px;
   border: none;
 }
 
 video {
+  width: 720px;
+  height: 720px;
   margin: 0px;
   padding: 0px;
   border: none;
