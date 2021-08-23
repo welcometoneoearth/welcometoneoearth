@@ -10,6 +10,7 @@ html,body {
 input[type=text] {
   border: 2px solid red;
   border-radius: 4px;
+  padding: 10px;
   width: 30%;
   height: 1vw;
 }
