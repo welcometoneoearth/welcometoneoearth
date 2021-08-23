@@ -1,4 +1,8 @@
-p {
+form {
+  width: 100%;
+}
+
+video {
   margin: 0px;
   padding: 0px;
   border: none;
