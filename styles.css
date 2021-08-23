@@ -16,7 +16,7 @@ form {
   border: none;
 }
 
-@media (max-aspect-ratio: 9:16) {
+@media (max-aspect-ratio: 10:16) {
   video {
     width: 100%;
     padding-top: 100%;
@@ -26,7 +26,7 @@ form {
   }
 }
 
-@media (min-aspect-ratio: 9:16) {
+@media (min-aspect-ratio: 10:16) {
   video {
     width: 33.33333%;
     padding-top: 100%;
