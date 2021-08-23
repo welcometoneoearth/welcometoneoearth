@@ -37,11 +37,16 @@ form {
   }
 }
 
+roygbivr
+
 
 @keyframes myanimation {
   0% {background-color: red;}
-  25%{background-color:yellow;}
-  50%{background-color:green;}
-  75%{background-color:brown;}
+  14.29%{background-color:orange;}
+  28.57%{background-color:yellow;}
+  42.86%{background-color:green;}
+  57.15% {background-color: blue;}
+  71.44% {background-color: indigo;}
+  85.73% {background-color: violet;}
   100% {background-color: red;}
 }
