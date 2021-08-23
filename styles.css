@@ -3,6 +3,7 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    border:none;
     /* overflow-x: hidden; */
     animation: myanimation 0.5s infinite;
 }
@@ -67,11 +68,12 @@ input[type=text] {
 
 @media (orientation: landscape) {
   video {
-    width: 33.333333vw;
+    width: 33vw;
     /* padding-top: 100%; */
     margin: 0px;
     padding: 0px;
-    border: none;
+    border-width: 0px
+    /* border: none; */
   }
 
   form {
