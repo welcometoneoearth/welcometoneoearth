@@ -8,6 +8,10 @@ html,body {
     animation: myanimation 0.5s infinite;
 }
 
+div.premium {
+  content:url(http://placehold.it/350x350);
+}
+
 input[type=text] {
   border: 2px solid red;
   border-radius: 4px;
