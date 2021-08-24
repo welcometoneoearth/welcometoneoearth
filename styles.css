@@ -8,9 +8,9 @@ html,body {
     animation: myanimation 0.5s infinite;
 }
 
-.premium {
+/* .premium {
   position: relative;
-}
+} */
 
 .premiumpolice {
   position: absolute;
