@@ -9,7 +9,9 @@ html,body {
 }
 
 .premium {
-  
+  position: absolute;
+  top: 60px;
+  left: 80px;
 }
 
 input[type=text] {
