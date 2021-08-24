@@ -13,7 +13,7 @@ html,body {
 } */
 
 .premiumpolice {
-  position: relative;
+  position: absolute;
   z-index: 2;
   width: 25%;
   top: 30px;
