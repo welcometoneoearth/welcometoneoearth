@@ -68,7 +68,7 @@ input[type=text] {
 
 @media (orientation: landscape) {
   video {
-    width: 33vw;
+    width: 33%;
     /* padding-top: 100%; */
     margin: 0px;
     padding: 0px;
