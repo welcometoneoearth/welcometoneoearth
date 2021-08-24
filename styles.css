@@ -8,8 +8,8 @@ html,body {
     animation: myanimation 0.5s infinite;
 }
 
-div.premium {
-  content:url(http://placehold.it/350x350);
+.premium {
+  
 }
 
 input[type=text] {
@@ -73,11 +73,9 @@ input[type=text] {
 @media (orientation: landscape) {
   video {
     width: 33%;
-    /* padding-top: 100%; */
     margin: 0px;
     padding: 0px;
     border-width: 0px
-    /* border: none; */
   }
 
   form {
