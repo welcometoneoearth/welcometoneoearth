@@ -8,17 +8,6 @@ html,body {
     animation: myanimation 0.5s infinite;
 }
 
-/* .premium {
-  position: relative;
-} */
-
-.premiumpolice {
-  position: absolute;
-  z-index: 2;
-  width: 25%;
-  top: 30px;
-  left: 30px;
-}
 
 input[type=text] {
   border: 2px solid red;
