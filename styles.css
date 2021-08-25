@@ -122,11 +122,8 @@ input[type=text] {
 
 @keyframes myanimation {
   0% {background-color: red;}
-  14%{background-color:orange;}
-  29%{background-color:yellow;}
-  43%{background-color:green;}
-  57% {background-color: blue;}
-  71% {background-color: indigo;}
-  86% {background-color: violet;}
+  25%{background-color:orange;}
+  50%{background-color:yellow;}
+  75%{background-color:green;}
   100% {background-color: red;}
 }
