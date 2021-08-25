@@ -4,18 +4,24 @@ html,body {
     margin: 0px;
     padding: 0px;
     border:none;
-    /* overflow-x: hidden; */
+    /* overflow: hidden; */
     animation: myanimation 0.5s infinite;
 }
 
-
 input[type=text] {
+  display: block;
   border: 2px solid red;
   border-radius: 4px;
   width: 30%;
-  height: 1vw;
+  height: 1.5vw;
   margin: auto;
-  margin-top: -50px;
+}
+
+.comics {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .myButton {
@@ -31,7 +37,11 @@ input[type=text] {
 	font-size:28px;
 	font-weight:bold;
 	font-style:italic;
-	padding:15px 21px;
+  align-content: center;
+	padding:10px 35px;
+  width: 20vw;
+  margin: auto;
+  /* margin-bottom: 20px; */
 	text-decoration:none;
 	text-shadow:0px 1px 0px #b23e35;
 }
@@ -65,14 +75,24 @@ input[type=text] {
     padding: 0px;
     border: none;
   }
+
+  .premiumpolice-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .premiumpolice {
+    position: relative;
+    width: 100%
+  }
 }
 
 @media (orientation: landscape) {
   video {
-    width: 33%;
-    margin: 0px;
+    width: 33.333%;
     padding: 0px;
-    border-width: 0px
+    border: none;
   }
 
   form {
@@ -84,8 +104,19 @@ input[type=text] {
     font-size: 3.5vw;
     margin: auto;
     animation: myanimation 1s infinite;
-    padding: 0px;
+    padding: 20px;
     border: none;
+  }
+
+  .premiumpolice-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .premiumpolice {
+    position: relative;
+    width: 33.333%
   }
 }
 
